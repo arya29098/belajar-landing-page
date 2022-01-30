@@ -1,0 +1,180 @@
+body {
+    font-family: "Helvetica Neue";
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    color: #2f2f2f;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 6px;
+    background-color: #6370FF;
+    color: #F5F7F3;
+    border: none;
+    font-size: 14px;
+    width: 130px;
+    height: 35px;
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #4757FF;
+}
+
+button:active {
+    background-color: #6370FF;
+}
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #2f2f2f;
+}
+
+a:hover {
+    color: #6370FF;
+    cursor: pointer;
+}
+
+a:active {
+    color: #2f2f2f;
+}
+
+/* HEADER */
+
+.logo-img{
+    width: 130px;
+    height: 80px;
+    margin-left: 17vw;
+    margin-right: 28px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+}
+
+.header-links{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+    margin-right: 14vw;
+    align-items: center;
+}
+
+.links-ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+    padding: 0;
+}
+
+/* Hero */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    margin-left: 17vw;
+    margin-right: 12vw;
+    gap: 12vw;
+    margin-bottom: 8vh;
+}
+
+.hero-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    width: 400px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-text{
+    font-size: 20px;
+    color: #2f2f2f;
+    margin-bottom: 2vh;
+}
+
+.hero-image-container {
+    flex: 1;
+    display: flex;
+}
+
+.hero-image {
+    width: 600px;
+    flex: 0 1;
+}
+
+.cta-button-hero {
+    width: 180px;
+    height: 50px;
+    font-size: 18px;
+    margin-bottom: 4vh;
+}
+
+.social-proof {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-proof-content {
+    width: 200px;
+}
+
+.social-proof-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #0C1713;
+}
+
+.social-proof-img {
+    width: 25px;
+    height: 25px;
+}
+
+.social-proof-img-3 {
+    width: 32px;
+    height: 32px;
+}
+
+/* Section 1 */
+
+.section-1 {
+    background-color: #F5F7F3;
+    display: flex;
+    align-items:center;
+    height: 30vh;
+    margin-bottom: 10vh;
+    padding-left: 17vw;
+    padding-right: 17vw;
+}
+
+.section-2 {
+    background-color: #F5F7F3;
+    height: 30vh;
+}
+
+.testimonials {
+    background-color: #2f2f2f;
+    height: 30vh;
+}
+
+/* Footer */
+.footer {
+    background-color: #0C1713;
+    height: 30vh;
+}
